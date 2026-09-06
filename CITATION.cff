@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below, together with the dissertation."
+type: dataset
+title: "Supplementary material of the dissertation \"Combining STPA, STRIDE, and LINDDUN PRO to derive cybersecurity and data privacy requirements with LGPD traceability: a smart tourism use case\""
+authors:
+  - family-names: Zeferino
+    given-names: Dênis Júnio
+    affiliation: "Instituto Tecnológico de Aeronáutica (ITA)"
+version: 1.0.0
+date-released: 2026-09-06
+license: CC-BY-4.0
+keywords:
+  - STPA
+  - STRIDE
+  - LINDDUN PRO
+  - LGPD
+  - cybersecurity
+  - data privacy
+  - threat modeling
+  - smart tourism
+abstract: "Instruments of the analyses reported in the dissertation: AppSTPA report of the four STPA steps, table of LGPD provisions per hazard, causal scenarios of Step 4, DFD model and its traceability to the control structure, STRIDE screening, threat groups, controls, and mitigations registered in the Microsoft Threat Modeling Tool, LINDDUN PRO analysis with 107 threats, 24 groups, and 71 controls, integrated LGPD matrix with the 85 consolidated controls mapped to the applicable articles, and catalogs in English."
