@@ -19,3 +19,4 @@ keywords:
   - threat modeling
   - smart tourism
 abstract: "Instruments of the analyses reported in the dissertation: AppSTPA report of the four STPA steps, table of LGPD provisions per hazard, causal scenarios of Step 4, DFD model and its traceability to the control structure, STRIDE screening, threat groups, controls, and mitigations registered in the Microsoft Threat Modeling Tool, LINDDUN PRO analysis with 107 threats, 24 groups, and 71 controls, integrated LGPD matrix with the 85 consolidated controls mapped to the applicable articles, and catalogs in English."
+doi: 10.5281/zenodo.22485969
