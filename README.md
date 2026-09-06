@@ -8,9 +8,14 @@ The instruments are working files of the study and are written in **Portuguese**
 
 ## How to cite
 
-Zeferino, D. J. *Supplementary material of the dissertation "Combining STPA, STRIDE, and LINDDUN PRO to derive cybersecurity and data privacy requirements with LGPD traceability: a smart tourism use case"*. Version 1.0.0. Zenodo, 2026. DOI: (10.5281/zenodo.22485969).
+Zeferino, D. J. *Supplementary material of the dissertation "Combining STPA, STRIDE, and LINDDUN PRO to derive cybersecurity and data privacy requirements with LGPD traceability: a smart tourism use case"*. Version 1.0.1. Zenodo, 2026. DOI of all versions: 10.5281/zenodo.22485968 (https://doi.org/10.5281/zenodo.22485968). The DOI of each version is shown in the Zenodo record of that version.
 
 The dissertation itself: Zeferino, D. J. *Combining STPA, STRIDE, and LINDDUN PRO to derive cybersecurity and data privacy requirements with LGPD traceability: a smart tourism use case*. 2026. Dissertation (Master's degree in Mission-Critical Computing), Instituto Tecnológico de Aeronáutica, São José dos Campos, 2026.
+
+## Versions
+
+- v1.0.0 (6 September 2026): published by mistake with the root files only (README, LICENSE, CITATION.cff, .zenodo.json); the instrument folders were not included in the release archive.
+- v1.0.1 (September 2026): complete material, folders 01 to 06. This is the version cited in the dissertation.
 
 ## Contents
 
