@@ -1,21 +1,22 @@
-# Supplementary material: combining STPA, STRIDE, and LINDDUN PRO under the LGPD (smart tourism use case)
+# Supplementary material of the dissertation "Combining STPA, STRIDE, and LINDDUN PRO to derive cybersecurity and data privacy requirements with LGPD traceability: a smart tourism use case"
 
-Instruments of the analyses reported in the master's dissertation **"Combining STPA, STRIDE, and LINDDUN PRO to derive cybersecurity and data privacy requirements with LGPD traceability: a smart tourism use case"** (Dênis Júnio Zeferino, Instituto Tecnológico de Aeronáutica, ITA, Graduate Program of Mission-Critical Computing, advisor Prof. Dr. Celso Massaki Hirata, 2026).
+Artifacts of the analyses reported in the master's dissertation of Dênis Júnio Zeferino (Instituto Tecnológico de Aeronáutica, ITA, Graduate Program of Mission-Critical Computing, advisor Prof. Dr. Celso Massaki Hirata, 2026).
 
-The dissertation applies STPA (Steps 1 to 4), derives a data flow diagram (DFD) from the detailed control structure (Step 5), analyzes the DFD with STRIDE in the Microsoft Threat Modeling Tool (Step 6) and with LINDDUN PRO (Step 7), consolidates the controls of the three techniques (Step 8), and maps the consolidated controls to the applicable articles of the Brazilian General Data Protection Law, LGPD (Step 9). This repository holds the instruments in which those analyses were registered. It is the material referred to in the dissertation as supplementary material.
+The dissertation applies STPA (Steps 1 to 4), derives a data flow diagram (DFD) from the detailed control structure (Step 5), analyzes the DFD with STRIDE in the Microsoft Threat Modeling Tool (Step 6) and with LINDDUN PRO (Step 7), consolidates the controls of the three techniques (Step 8), and maps the consolidated controls to the applicable articles of the Brazilian General Data Protection Law, LGPD (Step 9). This repository holds the files in which those analyses were registered, cited in the dissertation as supplementary material.
 
-The instruments are working files of the study and are written in **Portuguese**. The catalogs in folder `06_catalogs_in_english` reproduce the complete lists of scenarios, threat groups, threats, and controls in **English**.
+The workbooks, the AppSTPA report, and the HCAs list are in **Portuguese**. The catalogs in folder `06_catalogs_in_english` reproduce the complete lists of scenarios, threat groups, threats, and controls in **English**.
 
 ## How to cite
 
-Zeferino, D. J. *Supplementary material of the dissertation "Combining STPA, STRIDE, and LINDDUN PRO to derive cybersecurity and data privacy requirements with LGPD traceability: a smart tourism use case"*. Version 1.0.1. Zenodo, 2026. DOI of all versions: 10.5281/zenodo.22485968 (https://doi.org/10.5281/zenodo.22485968). The DOI of each version is shown in the Zenodo record of that version.
+Zeferino, D. J. *Supplementary material of the dissertation "Combining STPA, STRIDE, and LINDDUN PRO to derive cybersecurity and data privacy requirements with LGPD traceability: a smart tourism use case"*. Version 1.0.2. Zenodo, 2026. DOI of all versions: 10.5281/zenodo.22485968 (https://doi.org/10.5281/zenodo.22485968). The DOI of each version is shown in its Zenodo record.
 
-The dissertation itself: Zeferino, D. J. *Combining STPA, STRIDE, and LINDDUN PRO to derive cybersecurity and data privacy requirements with LGPD traceability: a smart tourism use case*. 2026. Dissertation (Master's degree in Mission-Critical Computing), Instituto Tecnológico de Aeronáutica, São José dos Campos, 2026.
+The dissertation: Zeferino, D. J. 2026. Dissertation (Master's degree in Mission-Critical Computing), Instituto Tecnológico de Aeronáutica, São José dos Campos, 2026.
 
 ## Versions
 
-- v1.0.0 (6 September 2026): published by mistake with the root files only (README, LICENSE, CITATION.cff, .zenodo.json); the instrument folders were not included in the release archive.
-- v1.0.1 (September 2026): complete material, folders 01 to 06. This is the version cited in the dissertation.
+- v1.0.2 (September 2026): wording revised in the README, in the metadata, and in the catalogs. Same data as v1.0.1.
+- v1.0.1 (6 September 2026): first complete version, folders 01 to 06.
+- v1.0.0 (6 September 2026): root files only, published by mistake.
 
 ## Contents
 
@@ -35,7 +36,7 @@ The dissertation itself: Zeferino, D. J. *Combining STPA, STRIDE, and LINDDUN PR
 | `03_stride_step_6` | `STRIDE_mitigations_registered_in_TMT.xlsx` | Justifications (Portuguese and English) registered in the tool for the 91 applicable records and for the 7 not applicable records, with the group and the control of each one | 6 |
 | `04_linddun_pro_step_7` | `LINDDUN_PRO_analysis.xlsx` | The 15 interactions of the DFD, the inventory of personal data per interaction, the applicability grid (315 positions of interaction, position, and category, 267 applicable), the 107 elicited threats AM-LIN, the 24 threat groups CT-LIN, the 71 data privacy controls CTL-LIN, the relation of groups and controls to STPA (14 common to STPA, 57 added by LINDDUN), the disposition of the 315 positions, and the qualitative prioritization | 7 |
 | `05_consolidation_and_lgpd_mapping_steps_8_9` | `Integrated_LGPD_matrix.xlsx` | The 85 consolidated controls (14 CTL-STR and 71 CTL-LIN) with type, hazards, relation to STPA (21 common to STPA, 64 added), LGPD principles and articles, and expected evidence; coverage by hazard, by principle, and by article; complementarity of STRIDE and LINDDUN PRO; quantitative summary; view by LGPD requirement (REQ-LGPD); closed scope decisions (DEC-ESC-01 to DEC-ESC-07) | 8 and 9 |
-| `06_catalogs_in_english` | `Catalogs_of_the_analysis_instruments.pdf` (and LaTeX sources) | Catalog A: the 26 causal scenarios. Catalog B: the 12 STRIDE groups, the 14 CTL-STR controls, and the 98 TMT records. Catalog C: the 24 LINDDUN PRO groups, the 107 AM-LIN threats, and the 71 CTL-LIN controls | 4, 6, 7 |
+| `06_catalogs_in_english` | `Catalogs_of_the_analysis_artifacts.pdf` (and LaTeX sources) | Catalog A: the 26 causal scenarios. Catalog B: the 12 STRIDE groups, the 14 CTL-STR controls, and the 98 TMT records. Catalog C: the 24 LINDDUN PRO groups, the 107 AM-LIN threats, and the 71 CTL-LIN controls | 4, 6, 7 |
 
 ## Where each identifier of the dissertation is
 
@@ -57,7 +58,7 @@ The dissertation itself: Zeferino, D. J. *Combining STPA, STRIDE, and LINDDUN PR
 
 ## Key numbers
 
-| Result | Value | Instrument |
+| Result | Value | Artifact |
 |---|---|---|
 | Hazards and system-level constraints | 7 and 7 | AppSTPA report |
 | Hazardous control actions | 69 (17 control actions and 20 HCAs of the Tourist) | AppSTPA report |
@@ -69,7 +70,7 @@ The dissertation itself: Zeferino, D. J. *Combining STPA, STRIDE, and LINDDUN PR
 | LINDDUN PRO threats, groups, and controls | 107, 24, and 71 | LINDDUN PRO workbook |
 | Consolidated controls | 85 = 14 CTL-STR + 71 CTL-LIN; 21 common to STPA (7 + 14) and 64 added (7 + 57); 55 technical, 22 hybrid, 8 organizational | Integrated LGPD matrix |
 
-## Conventions and notes for reading
+## Conventions for reading
 
 - **Relation to STPA.** Each group and control is classified as *Comum ao STPA* (common to STPA), when its central objective is explicit in the STPA base formed by the system-level constraints, the constraints of the HCAs, and the requirements and recommendations of the scenarios, or as *Adicionado pelo STRIDE* / *Adicionado pelo LINDDUN* (added by STRIDE or by LINDDUN), when it is not. The hazards associated with an added control register coverage, not equivalence of objective. The three analyses are related at the level of the hazards.
 - **State of the records in the Microsoft Threat Modeling Tool.** The state *Mitigation Implemented* (shown as *Mitigated* in the CSV export of the tool) is an analytical closure convention of the study: the applicable record has a documented justification linked to a proposed control CTL-STR. It does not mean that the mitigation was implemented in a system. The sheet `Threats_TMT_Original` keeps the 98 records as generated, all in the state *Not Started*, as the baseline of the screening.
@@ -77,13 +78,7 @@ The dissertation itself: Zeferino, D. J. *Combining STPA, STRIDE, and LINDDUN PR
 - **UCA and HCA.** AppSTPA generates identifiers of unsafe control actions (UCA). The dissertation preserves the number and reports the same record as a hazardous control action (HCA): UCA-30 in AppSTPA is HCA-30 in the dissertation.
 - **Requirement and mechanism in Step 4.** In the Step 4 workbook, the column "Recomendação (nível funcional)" is the requirement derived at the functional level, and the column "Mecanismo" is the recommendation for the design, called mechanism in the dissertation.
 - **Data processor.** By assumption A-8 there is no data processor in the system; the controller performs all the processing. Where a control statement mentions "operator", it designates a member of the Operations Team, the staff of the controller, and not the data processor of the law.
-- **Language.** The workbooks, the AppSTPA report, and the HCAs list are in Portuguese. The TMT report, the TMT export, and the catalogs are in English. The justifications registered in the tool were written in Portuguese and English.
-
-## Provenance and curation
-
-The files are the versions used to write the dissertation (internal working versions: Step 4 workbook v3, traceability workbook v6, STRIDE screening workbook v17, STRIDE controls workbook v16, STRIDE mitigations workbook v7, LINDDUN PRO workbook v52, integrated LGPD matrix v24, DFD model v5, TMT report V5, AppSTPA report of 29 August 2026). For publication, the working sheets that did not hold results were removed from the workbooks: version logs, terminology logs, validation and audit notes, templates, step-by-step instructions, methodology notes, source lists, and display notes of an internal portal. No identifier, count, classification, hazard, article, or evidence was changed. Four small edits were made in labels: the sheet with the elicited threats was renamed from `04_Template_Elicitacao_Ameacas` to `04_Elicitacao_AM_LIN`, a version clause was removed from an observation cell of the applicability grid, two version bookkeeping rows were removed from the summary of the CTL-LIN controls, and the header "Uso no portal e na dissertação" became "Uso na dissertação". The column with the name of the workstation was removed from the TMT export. The former Step 1 spreadsheet is not published because it predates the revision of the assumptions; the Step 1 record is the AppSTPA report, complemented by the table of LGPD provisions per hazard.
-
-The analyses are analytical and specific to the hypothetical smart tourism system described in the dissertation. Implementation, operational effectiveness, and legal sufficiency of the controls were not evaluated, and the mapping to the LGPD does not establish that an implemented system complies with the law.
+- **Scope of the results.** The analyses are analytical and specific to the hypothetical smart tourism system described in the dissertation. Implementation, operational effectiveness, and legal sufficiency of the controls were not evaluated, and the mapping to the LGPD does not establish that an implemented system complies with the law.
 
 ## License
 
