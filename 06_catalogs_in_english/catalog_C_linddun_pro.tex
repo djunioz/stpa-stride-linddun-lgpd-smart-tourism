@@ -1,0 +1,266 @@
+\label{apx:linddun}
+
+This catalog registers the complete results of the LINDDUN PRO analysis of Step 7, presented in Section 6.3 of the dissertation. Table~\ref{tab:apxC_grupos} presents the 24 threat groups with their threat family, the predominant category, the flows, the number of threats consolidated in each group, the number of derived controls, and the hazards. Table~\ref{tab:linddun_ameacas} presents, for each of the 107 threats, the \gls{dfd} flow, the interaction position, the LINDDUN category, and the group in which the threat was consolidated. Table~\ref{tab:linddun_lista_controles} presents, for each of the 71 controls, the group or groups from which it was derived, its short name, its nature, its relation to \gls{stpa}, and the hazards. The statements of the controls and the expected evidence are registered in the instrument of the analysis and in the mapping of Chapter 7 of the dissertation. In the names of the groups and of the controls, operator designates a member of the Operations Team, the staff of the controller, and not the data processor of the law, which A-8 leaves outside the scope of the analysis.
+
+\begin{longtable}{l p{0.26\textwidth} p{0.13\textwidth} c c p{0.11\textwidth}}
+    \caption[LINDDUN PRO threat groups of Step 7]{LINDDUN PRO threat groups of Step 7, with the flows, the number of threats and controls, and the hazards.}
+    \label{tab:apxC_grupos} \\
+    \hline
+    \textbf{Group} & \textbf{Threat family (predominant category)} & \textbf{Flows} & \textbf{Threats} & \textbf{Controls} & \textbf{Hazards} \\
+    \hline
+    \endfirsthead
+    \multicolumn{6}{l}{\small\emph{Table~\thetable{} (continued)}} \\
+    \hline
+    \textbf{Group} & \textbf{Threat family (predominant category)} & \textbf{Flows} & \textbf{Threats} & \textbf{Controls} & \textbf{Hazards} \\
+    \hline
+    \endhead
+    \hline
+    \multicolumn{6}{r}{\small\emph{Continues on the next page}} \\
+    \endfoot
+    \hline
+    \endlastfoot
+        CT-LIN-01 & Persistent identifiers and longitudinal linking (Linking) & F1, F3, F4, F5, F7, F9, F11, F12, F14 & 13 & 4 & H-1, H-2, H-5, H-6 \\[0.4em]
+        CT-LIN-02 & Direct identification and singling out of the data subject (Identifying) & F1, F3, F5, F7, F9 & 8 & 3 & H-1, H-2, H-5, H-6 \\[0.4em]
+        CT-LIN-03 & Collection, requests, and responses with excessive data (Data Disclosure) & F1, F3, F4, F5, F7, F8, F9, F14 & 8 & 3 & H-1, H-3, H-6 \\[0.4em]
+        CT-LIN-04 & Transparency and intervenability of the data subject (Unawareness and Unintervenability) & F1, F2 & 4 & 3 & H-1, H-4, H-5, H-7 \\[0.4em]
+        CT-LIN-05 & Local exposure in the interface and device of the data subject (Data Disclosure) & F1, F2 & 3 & 2 & H-1, H-2, H-3 \\[0.4em]
+        CT-LIN-06 & Local persistence, cache, and residual data in the clients (Linking) & F1, F12, F14 & 4 & 3 & H-2, H-3, H-6 \\[0.4em]
+        CT-LIN-07 & Inferences, profiling, and revealing responses (Identifying) & F2, F4, F8 & 4 & 3 & H-1, H-5, H-7 \\[0.4em]
+        CT-LIN-08 & Excessive non-repudiation and disproportionate accountability (Non-repudiation) & F1, F2, F3, F7, F9, F12 & 6 & 2 & H-1, H-2, H-6 \\[0.4em]
+        CT-LIN-09 & Detectability and metadata of use and communication (Detecting) & F1, F3, F5, F10, F11 & 5 & 4 & H-1, H-2, H-5 \\[0.4em]
+        CT-LIN-10 & Sharing with the third-party SEFD and external governance (Non-compliance) & F5 & 4 & 3 & H-1, H-3, H-6, H-7 \\[0.4em]
+        CT-LIN-11 & SEFD responses combined with internal data (Linking) & F6 & 4 & 2 & H-1, H-5, H-6, H-7 \\[0.4em]
+        CT-LIN-12 & Internal propagation and secondary use in the API and Backend (Non-compliance) & F3, F7, F8 & 6 & 3 & H-1, H-3, H-6 \\[0.4em]
+        CT-LIN-13 & Observability, tracing, and technical exposure (Data Disclosure) & F3, F5, F7, F11, F14 & 7 & 5 & H-2, H-6 \\[0.4em]
+        CT-LIN-14 & Architectural linkability and re-identification in persistence (Linking) & F3, F9, F10 & 3 & 2 & H-2, H-3, H-5, H-6 \\[0.4em]
+        CT-LIN-15 & Life cycle, retention, deletion, and purpose of the data (Non-compliance) & F9, F11 & 5 & 5 & H-1, H-3, H-6 \\[0.4em]
+        CT-LIN-16 & Excessive reads and downstream reuse of persisted data (Data Disclosure) & F10 & 2 & 2 & H-1, H-2, H-3, H-4, H-6 \\[0.4em]
+        CT-LIN-17 & Logs as personal data (Data Disclosure) & F11 & 1 & 3 & H-2, H-3, H-6 \\[0.4em]
+        CT-LIN-18 & Excessive surveillance and traceability of the operator (Non-repudiation) & F12, F14 & 4 & 2 & H-1, H-2, H-6 \\[0.4em]
+        CT-LIN-19 & Multi-subject exposure in dashboards and operational interfaces (Data Disclosure) & F13, F15 & 5 & 3 & H-2, H-5, H-6 \\[0.4em]
+        CT-LIN-20 & Shadow data, parallel records, and insider threat (Data Disclosure) & F13 & 2 & 3 & H-1, H-2, H-6 \\[0.4em]
+        CT-LIN-21 & Irreversible administrative operations without proportional confirmation (Non-compliance) & F14 & 1 & 2 & H-2, H-3, H-4, H-6 \\[0.4em]
+        CT-LIN-22 & Absent just-in-time verification for actions on personal data (Non-compliance) & F10, F13, F14, F15 & 4 & 7 & H-1, H-2, H-3, H-4, H-6 \\[0.4em]
+        CT-LIN-23 & Absent governance metadata in persistence (Non-compliance) & F9, F11 & 2 & 5 & H-1, H-3, H-6 \\[0.4em]
+        CT-LIN-24 & Proportionality of linking and non-repudiation (Linking and Non-repudiation) & F11, F15 & 2 & 6 & H-1, H-2, H-6 \\
+\end{longtable}
+
+\begin{footnotesize}
+\begin{longtable}{l l p{0.16\textwidth} p{0.34\textwidth} l}
+    \caption[LINDDUN PRO threats elicited in Step 7]{LINDDUN PRO threats elicited in Step 7.}
+    \label{tab:linddun_ameacas} \\
+    \hline
+    \textbf{Threat} & \textbf{Flow} & \textbf{Position} & \textbf{LINDDUN PRO category} & \textbf{Group} \\
+    \hline
+    \endfirsthead
+    \multicolumn{5}{l}{\small\emph{Table~\thetable{} (continued)}} \\
+    \hline
+    \textbf{Threat} & \textbf{Flow} & \textbf{Position} & \textbf{LINDDUN PRO category} & \textbf{Group} \\
+    \hline
+    \endhead
+    \hline
+    \multicolumn{5}{r}{\small\emph{Continues on the next page}} \\
+    \endfoot
+    \hline
+    \endlastfoot
+        AM-LIN-001 & F1 & Source & Linking & CT-LIN-01 \\
+        AM-LIN-002 & F1 & Source & Identifying & CT-LIN-02 \\
+        AM-LIN-003 & F1 & Source & Unawareness and Unintervenability & CT-LIN-04 \\
+        AM-LIN-004 & F1 & Source & Unawareness and Unintervenability & CT-LIN-04 \\
+        AM-LIN-005 & F1 & Destination & Data Disclosure & CT-LIN-03 \\
+        AM-LIN-006 & F1 & Data flow & Data Disclosure & CT-LIN-05 \\
+        AM-LIN-007 & F1 & Data flow & Detecting & CT-LIN-09 \\
+        AM-LIN-008 & F1 & Destination & Linking & CT-LIN-06 \\
+        AM-LIN-009 & F1 & Destination & Identifying & CT-LIN-02 \\
+        AM-LIN-010 & F1 & Destination & Non-repudiation & CT-LIN-08 \\
+        AM-LIN-011 & F1 & Destination & Data Disclosure & CT-LIN-05 \\
+        AM-LIN-012 & F1 & Destination & Non-compliance & CT-LIN-06 \\
+        AM-LIN-013 & F2 & Source & Identifying & CT-LIN-07 \\
+        AM-LIN-014 & F2 & Source & Non-repudiation & CT-LIN-08 \\
+        AM-LIN-015 & F2 & Data flow & Data Disclosure & CT-LIN-05 \\
+        AM-LIN-016 & F2 & Destination & Unawareness and Unintervenability & CT-LIN-04 \\
+        AM-LIN-017 & F2 & Destination & Unawareness and Unintervenability & CT-LIN-04 \\
+        AM-LIN-018 & F3 & Source & Linking & CT-LIN-01 \\
+        AM-LIN-019 & F3 & Source & Identifying & CT-LIN-02 \\
+        AM-LIN-020 & F3 & Source & Data Disclosure & CT-LIN-03 \\
+        AM-LIN-021 & F3 & Data flow & Linking & CT-LIN-01 \\
+        AM-LIN-022 & F3 & Data flow & Non-repudiation & CT-LIN-08 \\
+        AM-LIN-023 & F3 & Data flow & Detecting & CT-LIN-09 \\
+        AM-LIN-024 & F3 & Data flow & Data Disclosure & CT-LIN-13 \\
+        AM-LIN-025 & F3 & Destination & Linking & CT-LIN-14 \\
+        AM-LIN-026 & F3 & Destination & Data Disclosure & CT-LIN-12 \\
+        AM-LIN-027 & F3 & Destination & Non-compliance & CT-LIN-12 \\
+        AM-LIN-028 & F4 & Source & Identifying & CT-LIN-07 \\
+        AM-LIN-029 & F4 & Source & Data Disclosure & CT-LIN-03 \\
+        AM-LIN-030 & F4 & Source & Linking & CT-LIN-01 \\
+        AM-LIN-031 & F5 & Source & Linking & CT-LIN-01 \\
+        AM-LIN-032 & F5 & Source & Identifying & CT-LIN-02 \\
+        AM-LIN-033 & F5 & Source & Data Disclosure & CT-LIN-03 \\
+        AM-LIN-034 & F5 & Source & Non-compliance & CT-LIN-10 \\
+        AM-LIN-035 & F5 & Data flow & Linking & CT-LIN-13 \\
+        AM-LIN-036 & F5 & Data flow & Detecting & CT-LIN-09 \\
+        AM-LIN-037 & F5 & Data flow & Data Disclosure & CT-LIN-13 \\
+        AM-LIN-038 & F5 & Destination & Linking & CT-LIN-10 \\
+        AM-LIN-039 & F5 & Destination & Data Disclosure & CT-LIN-10 \\
+        AM-LIN-040 & F5 & Destination & Non-compliance & CT-LIN-10 \\
+        AM-LIN-041 & F6 & Source & Data Disclosure & CT-LIN-11 \\
+        AM-LIN-042 & F6 & Destination & Linking & CT-LIN-11 \\
+        AM-LIN-043 & F6 & Destination & Identifying & CT-LIN-11 \\
+        AM-LIN-044 & F6 & Destination & Non-compliance & CT-LIN-11 \\
+        AM-LIN-045 & F7 & Source & Linking & CT-LIN-01 \\
+        AM-LIN-046 & F7 & Source & Identifying & CT-LIN-02 \\
+        AM-LIN-047 & F7 & Source & Data Disclosure & CT-LIN-03 \\
+        AM-LIN-048 & F7 & Source & Non-compliance & CT-LIN-12 \\
+        AM-LIN-049 & F7 & Data flow & Linking & CT-LIN-01 \\
+        AM-LIN-050 & F7 & Data flow & Non-repudiation & CT-LIN-08 \\
+        AM-LIN-051 & F7 & Data flow & Data Disclosure & CT-LIN-13 \\
+        AM-LIN-052 & F7 & Destination & Linking & CT-LIN-12 \\
+        AM-LIN-053 & F7 & Destination & Data Disclosure & CT-LIN-12 \\
+        AM-LIN-054 & F8 & Source & Identifying & CT-LIN-07 \\
+        AM-LIN-055 & F8 & Source & Data Disclosure & CT-LIN-03 \\
+        AM-LIN-056 & F8 & Destination & Non-compliance & CT-LIN-12 \\
+        AM-LIN-057 & F7 & Destination & Identifying & CT-LIN-02 \\
+        AM-LIN-058 & F8 & Data flow & Detecting & CT-LIN-07 \\
+        AM-LIN-059 & F9 & Source & Linking & CT-LIN-01 \\
+        AM-LIN-060 & F9 & Source & Identifying & CT-LIN-02 \\
+        AM-LIN-061 & F9 & Source & Data Disclosure & CT-LIN-03 \\
+        AM-LIN-062 & F9 & Destination & Linking & CT-LIN-14 \\
+        AM-LIN-063 & F9 & Destination & Identifying & CT-LIN-02 \\
+        AM-LIN-064 & F9 & Destination & Non-repudiation & CT-LIN-08 \\
+        AM-LIN-065 & F9 & Destination & Data Disclosure & CT-LIN-15 \\
+        AM-LIN-066 & F9 & Destination & Non-compliance & CT-LIN-15 \\
+        AM-LIN-067 & F9 & Destination & Non-compliance & CT-LIN-15 \\
+        AM-LIN-068 & F10 & Source & Linking & CT-LIN-14 \\
+        AM-LIN-069 & F10 & Source & Data Disclosure & CT-LIN-16 \\
+        AM-LIN-070 & F10 & Destination & Non-compliance & CT-LIN-16 \\
+        AM-LIN-071 & F9 & Source & Non-compliance & CT-LIN-23 \\
+        AM-LIN-072 & F10 & Source & Detecting & CT-LIN-09 \\
+        AM-LIN-073 & F10 & Destination & Non-compliance & CT-LIN-22 \\
+        AM-LIN-074 & F11 & Source & Linking & CT-LIN-01 \\
+        AM-LIN-075 & F11 & Source & Data Disclosure & CT-LIN-13 \\
+        AM-LIN-076 & F11 & Source & Non-compliance & CT-LIN-23 \\
+        AM-LIN-077 & F11 & Data flow & Linking & CT-LIN-01 \\
+        AM-LIN-078 & F11 & Data flow & Data Disclosure & CT-LIN-13 \\
+        AM-LIN-079 & F11 & Destination & Linking & CT-LIN-01 \\
+        AM-LIN-080 & F11 & Destination & Non-repudiation & CT-LIN-24 \\
+        AM-LIN-081 & F11 & Data flow & Detecting & CT-LIN-09 \\
+        AM-LIN-082 & F11 & Destination & Data Disclosure & CT-LIN-17 \\
+        AM-LIN-083 & F11 & Destination & Non-compliance & CT-LIN-15 \\
+        AM-LIN-084 & F11 & Destination & Non-compliance & CT-LIN-15 \\
+        AM-LIN-085 & F12 & Source & Linking & CT-LIN-18 \\
+        AM-LIN-086 & F12 & Source & Non-repudiation & CT-LIN-08 \\
+        AM-LIN-087 & F12 & Source & Data Disclosure & CT-LIN-18 \\
+        AM-LIN-088 & F12 & Destination & Non-compliance & CT-LIN-18 \\
+        AM-LIN-089 & F12 & Data flow & Linking & CT-LIN-01 \\
+        AM-LIN-090 & F12 & Destination & Data Disclosure & CT-LIN-06 \\
+        AM-LIN-091 & F13 & Source & Linking & CT-LIN-19 \\
+        AM-LIN-092 & F13 & Source & Identifying & CT-LIN-19 \\
+        AM-LIN-093 & F13 & Source & Data Disclosure & CT-LIN-19 \\
+        AM-LIN-094 & F13 & Destination & Linking & CT-LIN-20 \\
+        AM-LIN-095 & F13 & Destination & Data Disclosure & CT-LIN-20 \\
+        AM-LIN-096 & F13 & Destination & Non-compliance & CT-LIN-22 \\
+        AM-LIN-097 & F14 & Source & Data Disclosure & CT-LIN-06 \\
+        AM-LIN-098 & F14 & Data flow & Linking & CT-LIN-01 \\
+        AM-LIN-099 & F14 & Data flow & Data Disclosure & CT-LIN-13 \\
+        AM-LIN-100 & F14 & Destination & Data Disclosure & CT-LIN-03 \\
+        AM-LIN-101 & F14 & Destination & Non-compliance & CT-LIN-22 \\
+        AM-LIN-102 & F14 & Destination & Non-compliance & CT-LIN-21 \\
+        AM-LIN-103 & F14 & Destination & Non-repudiation & CT-LIN-18 \\
+        AM-LIN-104 & F15 & Source & Linking & CT-LIN-24 \\
+        AM-LIN-105 & F15 & Source & Identifying & CT-LIN-19 \\
+        AM-LIN-106 & F15 & Source & Data Disclosure & CT-LIN-19 \\
+        AM-LIN-107 & F15 & Source & Non-compliance & CT-LIN-22 \\
+\end{longtable}
+\end{footnotesize}
+
+\begin{footnotesize}
+\begin{longtable}{l p{0.13\textwidth} p{0.21\textwidth} p{0.15\textwidth} p{0.11\textwidth} p{0.10\textwidth}}
+    \caption[LINDDUN PRO controls derived in Step 7]{LINDDUN PRO controls derived in Step 7.}
+    \label{tab:linddun_lista_controles} \\
+    \hline
+    \textbf{Control} & \textbf{Derived from} & \textbf{Short name} & \textbf{Nature} & \textbf{Relation to STPA} & \textbf{Hazards} \\
+    \hline
+    \endfirsthead
+    \multicolumn{6}{l}{\small\emph{Table~\thetable{} (continued)}} \\
+    \hline
+    \textbf{Control} & \textbf{Derived from} & \textbf{Short name} & \textbf{Nature} & \textbf{Relation to STPA} & \textbf{Hazards} \\
+    \hline
+    \endhead
+    \hline
+    \multicolumn{6}{r}{\small\emph{Continues on the next page}} \\
+    \endfoot
+    \hline
+    \endlastfoot
+        CTL-LIN-001 & CT-LIN-01 & Rotating and scoped identifiers & Technical & Additional & H-1, H-2, H-5, H-6 \\
+        CTL-LIN-002 & CT-LIN-01 & Separation of correlation keys & Technical & Additional & H-1, H-2, H-5, H-6 \\
+        CTL-LIN-003 & CT-LIN-02 & Identification on demand & Hybrid & Additional & H-1, H-2, H-5, H-6 \\
+        CTL-LIN-004 & CT-LIN-02 & Reduction of identifying attributes & Technical & Additional & H-1, H-2, H-5, H-6 \\
+        CTL-LIN-005 & CT-LIN-03 & Minimum data contracts per purpose & Hybrid & Common to STPA & H-1, H-3, H-6 \\
+        CTL-LIN-006 & CT-LIN-03 & Response filtering by context & Technical & Common to STPA & H-1, H-3, H-6 \\
+        CTL-LIN-007 & CT-LIN-03 & Blocking of overcollection & Hybrid & Common to STPA & H-1, H-3, H-6 \\
+        CTL-LIN-008 & CT-LIN-04 & Contextual data privacy notices & Technical & Common to STPA & H-1, H-4, H-5, H-7 \\
+        CTL-LIN-009 & CT-LIN-04 & Preferences and rights center & Technical & Common to STPA & H-1, H-4, H-5, H-7 \\
+        CTL-LIN-010 & CT-LIN-04 & Transparency of the advisory personalization & Hybrid & Common to STPA & H-1, H-4, H-5, H-7 \\
+        CTL-LIN-011 & CT-LIN-05 & Local interface with data privacy by default & Technical & Additional & H-1, H-2, H-3 \\
+        CTL-LIN-012 & CT-LIN-05 & Contextual masking on the device & Technical & Additional & H-1, H-2, H-3 \\
+        CTL-LIN-013 & CT-LIN-06 & Control of cache and local storage & Technical & Additional & H-2, H-3, H-6 \\
+        CTL-LIN-014 & CT-LIN-06 & Removal of local residual data & Technical & Additional & H-2, H-3, H-6 \\
+        CTL-LIN-015 & CT-LIN-07 & Minimization of inferences & Hybrid & Common to STPA & H-1, H-5, H-7 \\
+        CTL-LIN-016 & CT-LIN-07 & Control of the data subject over the personalization & Technical & Common to STPA & H-1, H-5, H-7 \\
+        CTL-LIN-017 & CT-LIN-07 & Contextual explanation of the recommendations & Hybrid & Common to STPA & H-1, H-5, H-7 \\
+        CTL-LIN-018 & CT-LIN-08 & Proportionality of non-repudiation & Hybrid & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-019 & CT-LIN-08 & Separation between audit and profiling & Hybrid & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-020 & CT-LIN-09 & Minimization of communication metadata & Technical & Additional & H-1, H-2, H-5 \\
+        CTL-LIN-021 & CT-LIN-09 & Aggregation and smoothing of usage signals & Technical & Additional & H-1, H-2, H-5 \\
+        CTL-LIN-022 & CT-LIN-10 & Blocking of personal data in the SEFD integration & Technical & Additional & H-1, H-3, H-6, H-7 \\
+        CTL-LIN-023 & CT-LIN-10 & Contractual and technical governance of the SEFD without processing of personal data & Organizational & Additional & H-1, H-3, H-6, H-7 \\
+        CTL-LIN-024 & CT-LIN-10 & Server-to-server mediation of the SEFD query & Technical & Additional & H-1, H-3, H-6, H-7 \\
+        CTL-LIN-025 & CT-LIN-11 & Filtering of the SEFD responses & Technical & Additional & H-1, H-5, H-6, H-7 \\
+        CTL-LIN-026 & CT-LIN-11 & Separation of external context and internal profile & Technical & Additional & H-1, H-5, H-6, H-7 \\
+        CTL-LIN-027 & CT-LIN-12 & Internal routing by purpose & Technical & Additional & H-1, H-3, H-6 \\
+        CTL-LIN-028 & CT-LIN-12 & Control of internal secondary use & Hybrid & Additional & H-1, H-3, H-6 \\
+        CTL-LIN-029 & CT-LIN-12 & Internal data lineage & Technical & Additional & H-1, H-3, H-6 \\
+        CTL-LIN-030 & CT-LIN-13 & Telemetry with data privacy safeguards & Technical & Additional & H-2, H-6 \\
+        CTL-LIN-031 & CT-LIN-13 & Access control to observability & Technical & Additional & H-2, H-6 \\
+        CTL-LIN-032 & CT-LIN-13 & Short retention for detailed telemetry & Technical & Additional & H-2, H-6 \\
+        CTL-LIN-033 & CT-LIN-14 & Architectural separation of data domains & Technical & Additional & H-2, H-3, H-5, H-6 \\
+        CTL-LIN-034 & CT-LIN-14 & Aggregated analytical views & Technical & Additional & H-2, H-3, H-5, H-6 \\
+        CTL-LIN-035 & CT-LIN-15 & Life-cycle policies per data class & Hybrid & Common to STPA & H-1, H-3, H-6 \\
+        CTL-LIN-036 & CT-LIN-15 & Propagation of corrections and deletions & Technical & Common to STPA & H-1, H-3, H-6 \\
+        CTL-LIN-037 & CT-LIN-15 & Management of exceptional retention & Hybrid & Additional & H-1, H-3, H-6 \\
+        CTL-LIN-038 & CT-LIN-16 & Just-enough queries & Technical & Additional & H-1, H-2, H-3, H-4, H-6 \\
+        CTL-LIN-039 & CT-LIN-16 & Blocking of downstream reuse & Technical & Additional & H-1, H-2, H-3, H-4, H-6 \\
+        CTL-LIN-040 & CT-LIN-17 & Classification of logs as personal data & Organizational & Additional & H-2, H-3, H-6 \\
+        CTL-LIN-041 & CT-LIN-17 & Specific safeguards for logs that are personal data & Technical & Additional & H-2, H-3, H-6 \\
+        CTL-LIN-042 & CT-LIN-18 & Proportionality in the monitoring of operators & Organizational & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-043 & CT-LIN-18 & Separation between audit and workplace surveillance & Hybrid & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-044 & CT-LIN-19 & Dashboards with multi-subject minimization & Technical & Additional & H-2, H-5, H-6 \\
+        CTL-LIN-045 & CT-LIN-19 & Controls against improper export & Technical & Additional & H-2, H-5, H-6 \\
+        CTL-LIN-046 & CT-LIN-19 & Segmented visualization by need & Technical & Additional & H-2, H-5, H-6 \\
+        CTL-LIN-047 & CT-LIN-20 & Controlled environment for operational annotations & Technical & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-048 & CT-LIN-20 & Prevention of internal privilege abuse & Hybrid & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-049 & CT-LIN-20 & Governance of internal copying and sharing & Hybrid & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-050 & CT-LIN-21 & Proportional confirmation for irreversible actions & Technical & Additional & H-2, H-3, H-4, H-6 \\
+        CTL-LIN-051 & CT-LIN-21 & Reversibility and reconciliation & Technical & Additional & H-2, H-3, H-4, H-6 \\
+        CTL-LIN-052 & CT-LIN-22 & Just-in-time verification of authorization & Technical & Common to STPA & H-1, H-2, H-3, H-4, H-6 \\
+        CTL-LIN-053 & CT-LIN-22 & Step-up for sensitive actions & Technical & Common to STPA & H-1, H-2, H-3, H-4, H-6 \\
+        CTL-LIN-054 & CT-LIN-22 & Denial by outdated context & Technical & Common to STPA & H-1, H-2, H-3, H-4, H-6 \\
+        CTL-LIN-055 & CT-LIN-23 & Embedded governance metadata & Technical & Additional & H-1, H-3, H-6 \\
+        CTL-LIN-056 & CT-LIN-23 & Metadata-driven policy engine & Technical & Additional & H-1, H-3, H-6 \\
+        CTL-LIN-057 & CT-LIN-23 & Validation of metadata completeness & Technical & Additional & H-1, H-3, H-6 \\
+        CTL-LIN-058 & CT-LIN-24 & Calibration of legitimate correlation and attribution & Hybrid & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-059 & CT-LIN-24 & Periodic review of correlation and attribution flows & Organizational & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-060 & CT-LIN-24 & Specific controls for necessary linking and non-repudiation & Technical & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-061 & CT-LIN-01 & Obfuscation of traffic metadata & Technical & Additional & H-1, H-2, H-5, H-6 \\
+        CTL-LIN-062 & CT-LIN-01 & Central catalog of identifiers & Organizational & Additional & H-1, H-2, H-5, H-6 \\
+        CTL-LIN-063 & CT-LIN-02 & Resistance to re-identification by combination & Technical & Additional & H-1, H-2, H-5, H-6 \\
+        CTL-LIN-064 & CT-LIN-09 & Countermeasures to presence side channels & Technical & Additional & H-1, H-2, H-5 \\
+        CTL-LIN-065 & CT-LIN-22 & Audit trail of the revalidations & Technical & Additional & H-1, H-2, H-3, H-4, H-6 \\
+        CTL-LIN-066 & CT-LIN-22 & Information to the operator about the LGPD state of the data subject & Technical & Additional & H-1, H-2, H-3, H-4, H-6 \\
+        CTL-LIN-067 & CT-LIN-24 & Design justification with consultation of the DPO & Organizational & Additional & H-1, H-2, H-6 \\
+        CTL-LIN-068 & CT-LIN-06, CT-LIN-13, CT-LIN-15, CT-LIN-17 & Encryption at rest of personal data & Technical & Additional & H-1, H-2, H-3, H-6 \\
+        CTL-LIN-069 & CT-LIN-09, CT-LIN-13 & Reinforced protection of the transport channel & Technical & Additional & H-1, H-2, H-5, H-6 \\
+        CTL-LIN-070 & CT-LIN-15, CT-LIN-22, CT-LIN-23, CT-LIN-24 & Data protection impact report of the controller for high-risk processing and relevant changes & Organizational & Additional & H-1, H-2, H-3, H-4, H-6 \\
+        CTL-LIN-071 & CT-LIN-22, CT-LIN-23, CT-LIN-24 & Formal decision of the controller with consultation of the DPO & Organizational & Additional & H-1, H-2, H-3, H-4, H-6 \\
+\end{longtable}
+\end{footnotesize}

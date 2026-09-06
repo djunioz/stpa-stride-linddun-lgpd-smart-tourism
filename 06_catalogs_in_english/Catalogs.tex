@@ -1,0 +1,22 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}
+\usepackage[a4paper,margin=2.2cm]{geometry}
+\usepackage{longtable}\usepackage{array}\usepackage[hidelinks]{hyperref}
+\newcommand{\gls}[1]{\MakeUppercase{#1}}\newcommand{\glspl}[1]{\MakeUppercase{#1}s}\newcommand{\Gls}[1]{\MakeUppercase{#1}}
+\renewcommand{\thechapter}{\Alph{chapter}}\renewcommand{\chaptername}{Catalog}
+\setcounter{secnumdepth}{0}
+\title{Catalogs of the analysis instruments\\[1ex]\large Supplementary material of the dissertation\\ \emph{Combining STPA, STRIDE, and LINDDUN PRO to derive cybersecurity and data privacy requirements with LGPD traceability: a smart tourism use case}}
+\author{D\^enis J\'unio Zeferino\\ Instituto Tecnol\'ogico de Aeron\'autica (ITA), Graduate Program of Mission-Critical Computing\\ Advisor: Prof. Dr. Celso Massaki Hirata}
+\date{2026}
+\begin{document}
+\maketitle
+\tableofcontents
+\vspace{2em}
+\noindent These catalogs reproduce, in English, the complete lists registered in the instruments of the analysis (workbooks in Portuguese, in the same repository): the 26 causal scenarios of Step 4, the 12 STRIDE threat groups, the 14 cybersecurity controls, and the 98 threat records of Step 6, and the 24 LINDDUN PRO threat groups, the 107 data privacy threats, and the 71 data privacy controls of Step 7. Chapter, section, and table numbers mentioned in the text refer to the dissertation.
+\chapter{Causal scenarios of Step 4}
+\input{catalog_A_causal_scenarios.tex}
+\chapter{STRIDE threat groups, controls, and threat records of Step 6}
+\input{catalog_B_stride.tex}
+\chapter{LINDDUN PRO threat groups, threats, and controls of Step 7}
+\input{catalog_C_linddun_pro.tex}
+\end{document}
